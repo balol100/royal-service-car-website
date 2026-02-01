@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Service Car - השכרת רכב פרימיום</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ffb800;
+            color: #1e3c72;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 184, 0, 0.4);
+        }
+        
+        .cta-button:hover {
+            background: #ffc933;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 184, 0, 0.6);
+        }
+        
+        .features {
+            padding: 80px 20px;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #1e3c72;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .contact {
+            background: #1e3c72;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        
+        .contact-info {
+            font-size: 1.3em;
+            margin: 20px 0;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-btn:hover {
+            background: #20ba5a;
+            transform: scale(1.05);
+        }
+        
+        footer {
+            background: #0f1f3d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .hero p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>🚗 Royal Service Car</h1>
+            <p>השכרת רכב פרימיום ושירות מלכותי</p>
+            <a href="#contact" class="cta-button">הזמן עכשיו</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <h2>למה לבחור בנו?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>✨ רכבים פרימיום</h3>
+                    <p>צי רכבים חדיש ומתוחזק במיוחד לנוחיותכם</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⏰ זמינות 24/7</h3>
+                    <p>שירות מסביב לשעון, תמיד כאן בשבילכם</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💰 מחירים הוגנים</h3>
+                    <p>תמורה מקסימלית לכל שקל</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🛡️ ביטוח מקיף</h3>
+                    <p>נסעו בראש שקט עם כיסוי מלא</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📍 איסוף והחזרה</h3>
+                    <p>שירות איסוף והחזרה עד הבית</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👑 שירות מלכותי</h3>
+                    <p>צוות מקצועי ואדיב לשירותכם</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>צור קשר</h2>
+            <p class="contact-info">📞 טלפון: 050-123-4567</p>
+            <p class="contact-info">📧 אימייל: info@royalservicecar.co.il</p>
+            <a href="https://wa.me/972501234567" class="whatsapp-btn" target="_blank">💬 שלח הודעה בוואטסאפ</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2026 Royal Service Car. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>
